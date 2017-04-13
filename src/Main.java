@@ -2,6 +2,12 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Main class calculate BMI of user
+ * @author Roman
+ * @version 1.0
+ * @since 10.04.2017
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -45,6 +51,9 @@ public class Main {
 //                (Double.parseDouble(heightString) * Double.parseDouble(heightString))));
 //        System.out.println(bmi);
 
+        /**
+         * get value {@link Main#bmi} and print it and suitable message
+         */
         switch (bmi){
 
             case 13: case 14: case 15 :
@@ -75,5 +84,7 @@ public class Main {
                 System.out.println("BMI: " + bmi + " - To hospital!");
                 break;
         }
+
+        //сделать слайд с формулой и кейсом
     }
 }
