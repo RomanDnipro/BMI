@@ -15,8 +15,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         /**
-         * Verification of weight and height
-         * by regular expressions
+         * Verification of weight
+         * by regular expressions(Pattern and Matcher classes)
          */
         System.out.println("Enter your weight, kg:");
         String weightString = sc.nextLine();
